@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+  	<title>Cadastro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+	<!-- https://fontawesome.com/v4/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/cadastro-style.css">
+</head>
+  <body>
+    <section class="vh-100" style="background-color: #4558b3;">
+      <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-12 col-xl-11">
+            <div class="card text-black" style="border-radius: 25px;">
+              <div class="card-body p-md-5">
+                <div class="row justify-content-center">
+                  <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+          
+                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">CADASTRE-SE</p>
+          
+                      <form class="mx-1 mx-md-4"  action="login.html" onsubmit="return confereSenha()">
+          
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fa fa-user-o fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="nome" class="form-control" placeholder="Nome" required />
+                          </div>
+                        </div>
+          
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fa fa-envelope-o fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="email" id="email" class="form-control" placeholder="E-mail" required />
+                          </div>
+                        </div>
+          
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fa fa-key fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="password" name="Senha" id="senha" class="form-control" placeholder="Senha" required />
+                          </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center mb-4">
+                          <i class="fa fa-lock fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="password" name= "confirmaSenha"  id="confirmaSenha" class="form-control" placeholder="Confirme a senha" required />
+                          </div>
+                        </div>    
+                        <div class="form-group">                            
+                          <button  type="submit" class="form-control btn btn-primary rounded submit " > Registrar</button> 
+                        </div>
+
+                        <div class="form-group d-md-flex " >
+                          <a>Já possui conta? </a>
+                          <a href="login.html">Login</a>
+                        </div>
+                       
+                     </form>
+          
+                  </div>
+                        <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+          
+                          <img src="images\logoQuadrado.png"   class="img-fluid" alt="Sample image">
+          
+                        </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <script src="js\cadastro.js"></script>
+     
+  </body>
+
+
+</html>

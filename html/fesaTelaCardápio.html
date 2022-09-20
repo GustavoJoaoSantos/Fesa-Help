@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>FESA</title>
+    <style>
+
+      td, tr, table {
+        border: 1px solid #4558b3
+      }
+      
+    </style>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css\bootstrap.min.css" />
+    <link rel="stylesheet" href="css\fesaTelaInicial.css" />
+    <link rel="icon" href="images\logoRedondo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <br />
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid" style="background-color: #4558b3">
+          <a class="navbar-brand" href="#">
+            <img src="images\logoQuadrado.jpeg" style="width: 80px; height: 80px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="fesaTelaInicial.html">
+                  <font size="5" color="white" face="Montserrat"> Home</font>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <font size="5" color="white" face="Montserrat">
+                    Ensalamento
+                  </font>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <font size="5" color="white" face="Montserrat">
+                    Calendário
+                  </font>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <font size="5" color="white" face="Montserrat">
+                    Anotações
+                  </font>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <font size="5" color="white" face="Montserrat">
+                    Calculadora de notas</font
+                  >
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  <font size="5" color="white" face="Montserrat">
+                    Restaurante
+                  </font>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <font face="Montserrat">Cardápio</font>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <font face="Montserrat">Sinalizar se vai comer</font>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn btn-outline-danger" type="submit">Sair</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+  
+    <table id="tabela"></table>
+    
+    <div id="resposta"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+      
+  </script>
+  <script src = "js\cardapio.js"></script>
+  </body>
+  
+</html>
